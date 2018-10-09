@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UnlessDirective } from './unless.directive';
+import { FilesizePipe } from './filesize.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UnlessDirective
+    UnlessDirective,
+    FilesizePipe
   ],
   imports: [
     BrowserModule,
